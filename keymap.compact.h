@@ -1,4 +1,4 @@
-#define NUMKEYMAPS 7
+#define NUMKEYMAPS 1
 
 static const char *keymap_names[] = {"latin"};
 
