@@ -39,6 +39,8 @@
             pkgs.wayland
           ];
 
+          makeFlags = [ "LAYOUT=compact" ]
+
           installFlags = [ "PREFIX=$(out)" ];
 
           strictDeps = true;
