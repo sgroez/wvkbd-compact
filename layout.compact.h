@@ -64,10 +64,14 @@ static struct key keys_full[] = {
   {"2", "2", 1.0, Code, KEY_2},
   {"3", "3", 1.0, Code, KEY_3},
   {"4", "4", 1.0, Code, KEY_4},
+   {"", "", 0.0, EndRow},
+
   {"5", "5", 1.0, Code, KEY_5},
   {"6", "6", 1.0, Code, KEY_6},
   {"7", "7", 1.0, Code, KEY_7},
   {"8", "8", 1.0, Code, KEY_8},
+   {"", "", 0.0, EndRow},
+
   {"9", "9", 1.0, Code, KEY_9},
   {"0", "0", 1.0, Code, KEY_0},
   {"", "", 0.0, Last},
@@ -84,10 +88,14 @@ static struct key keys_landscape[] = {
   {"2", "2", 1.0, Code, KEY_2},
   {"3", "3", 1.0, Code, KEY_3},
   {"4", "4", 1.0, Code, KEY_4},
+   {"", "", 0.0, EndRow},
+
   {"5", "5", 1.0, Code, KEY_5},
   {"6", "6", 1.0, Code, KEY_6},
   {"7", "7", 1.0, Code, KEY_7},
   {"8", "8", 1.0, Code, KEY_8},
+   {"", "", 0.0, EndRow},
+
   {"9", "9", 1.0, Code, KEY_9},
   {"0", "0", 1.0, Code, KEY_0},
   {"", "", 0.0, Last},
