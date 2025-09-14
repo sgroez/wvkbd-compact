@@ -39,7 +39,7 @@
             pkgs.wayland
           ];
 
-          makeFlags = [ "LAYOUT=compact" ]
+          makeFlags = [ "LAYOUT=compact" ];
 
           installFlags = [ "PREFIX=$(out)" ];
 
