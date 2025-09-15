@@ -60,20 +60,20 @@ static struct layout layouts[NumLayouts] = {
  * - layout: layout to switch to when key is pressed
  */
 static struct key keys_full[] = {
-  {"1", "1", 1.0, Code, KEY_1},
-  {"2", "2", 1.0, Code, KEY_2},
-  {"3", "3", 1.0, Code, KEY_3},
-  {"4", "4", 1.0, Code, KEY_4},
+  {"h", "1", 1.0, Code, KEY_1},
+  {"j", "2", 1.0, Code, KEY_2},
+  {"k", "3", 1.0, Code, KEY_3},
+  {"l", "4", 1.0, Code, KEY_4},
    {"", "", 0.0, EndRow},
 
-  {"5", "5", 1.0, Code, KEY_5},
-  {"6", "6", 1.0, Code, KEY_6},
-  {"7", "7", 1.0, Code, KEY_7},
-  {"8", "8", 1.0, Code, KEY_8},
+  {"v", "5", 1.0, Code, KEY_5},
+  {"w", "6", 1.0, Code, KEY_6},
+  {"b", "7", 1.0, Code, KEY_7},
+  {"e", "8", 1.0, Code, KEY_8},
    {"", "", 0.0, EndRow},
 
-  {"9", "9", 1.0, Code, KEY_9},
-  {"0", "0", 1.0, Code, KEY_0},
+  {"i", "9", 1.0, Code, KEY_9},
+  {"q", "0", 1.0, Code, KEY_0},
   {"", "", 0.0, Last},
 };
 
@@ -84,16 +84,16 @@ static struct key keys_index[] = {
 };
 
 static struct key keys_landscape[] = {
-  {"1", "1", 1.0, Code, KEY_1},
-  {"2", "2", 1.0, Code, KEY_2},
-  {"3", "3", 1.0, Code, KEY_3},
-  {"4", "4", 1.0, Code, KEY_4},
+  {"1", "h", 1.0, Code, KEY_1},
+  {"2", "j", 1.0, Code, KEY_2},
+  {"3", "k", 1.0, Code, KEY_3},
+  {"4", "l", 1.0, Code, KEY_4},
    {"", "", 0.0, EndRow},
 
-  {"5", "5", 1.0, Code, KEY_5},
-  {"6", "6", 1.0, Code, KEY_6},
-  {"7", "7", 1.0, Code, KEY_7},
-  {"8", "8", 1.0, Code, KEY_8},
+  {"5", "v", 1.0, Code, KEY_5},
+  {"6", "w", 1.0, Code, KEY_6},
+  {"7", "b", 1.0, Code, KEY_7},
+  {"8", "e", 1.0, Code, KEY_8},
    {"", "", 0.0, EndRow},
 
   {"9", "9", 1.0, Code, KEY_9},
